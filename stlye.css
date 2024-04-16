@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+
+
+#yeşil{
+    background: green;
+}
+
+#kırmızı{
+    background: red;
+}
+
+#mavi{
+    background: blue;
+}
+
+button{
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+    margin: 7px;
+    font-size: 17px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+
+}
+
+h3{
+ display:  block;
+    font-size: 30px;
+    margin-left: 120px;
+}
+
+@media screen and (max-width: 600px) {
+
+    body{
+        display: block;
+    }
+}
